@@ -1,0 +1,5 @@
+# Write a program to enter a number and print its multiplication table till 10 rows.
+
+num = int(input("Enter a number: "))
+for i in range (1,11):
+    print (num, "x", i , "=", num * i)
